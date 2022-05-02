@@ -14,11 +14,5 @@ h6 {
   font-family: $font-stack--headings;
 }
 
-.hero{
-min-height:100vh;
-width:100%;
-background-color:black;
-background-image: url(img/spinning-sphere-gif.gif);
-background-position:center;
-background-repeat:repeat;
-}
+body
+background-color: black
