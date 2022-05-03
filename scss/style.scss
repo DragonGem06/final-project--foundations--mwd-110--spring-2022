@@ -1,15 +1,33 @@
 @use 'variables' as *;
 @use 'reset';
 
-body {
-  font-family: $font-stack--reading;
+.about {
+	width: 100%;
+	padding: 78px 0px;
 }
 
-h1,
-h2,
-h3,
-h4,
-h5,
-h6 {
-  font-family: $font-stack--headings;
+.aboutheader{
+  color:white;
+  font-size: 80px;
+  margin-bottom:20px;
+  font-family: 'Cinzel Decorative', cursive;
+}
+
+.aboutparagraph{
+  color: plum;
+  letter-spacing: 1px;
+  line-height: 28px;
+  font-size:18px;
+  margin-bottom:45px;
+  font-family: 'Unna',serif;
+}
+
+span{
+  color: red;
+}
+
+body{
+  background-color: antiquewhite;
+  background-image:url(https://littlebunnysunshine.tumblr.com/post/130477630411/necklace);
+  background-repeat: repeat;
 }
