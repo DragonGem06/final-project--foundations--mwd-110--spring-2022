@@ -6,6 +6,23 @@
 	padding: 78px 0px;
 }
 
+.about img{
+	height: auto;
+	width: 420px;
+}
+.about-text{
+	width: 550px;;
+}
+
+.main{
+	width: 1130px;
+	max-width: 95%;
+	margin: 0 auto;
+	display: flex;
+	align-items: center;
+	justify-content: space-around;
+}
+
 .aboutheader{
   color:white;
   font-size: 80px;
@@ -26,8 +43,9 @@ span{
   color: red;
 }
 
+
 body{
-  background-color: antiquewhite;
+  background-color: black;
   background-image:url(https://littlebunnysunshine.tumblr.com/post/130477630411/necklace);
   background-repeat: repeat;
 }
