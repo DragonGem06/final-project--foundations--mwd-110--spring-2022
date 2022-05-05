@@ -111,3 +111,21 @@ textarea.contact-form-text{
 .contact-form-btn:hover{
 	background:#006400
 }
+
+.home-intro{
+	font-size: 150px;
+	font-family: 'Cinzel Decorative',cursive;
+	color:plum;
+	text-align: center;
+	margin: 0;
+	padding: 0;
+	position: absolute;
+	top:50%;
+	left: 50%;
+	transform: translateX(-50%) translateY(-50%);
+}
+
+body.home{
+	background-image:url('https://images.unsplash.com/photo-1562408590-e32931084e23?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80');
+	height: 100vh;
+}
