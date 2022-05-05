@@ -251,3 +251,105 @@ body.home{
 	padding: 0px 32px;
 	font-family: 'Unna',serif;
 }
+
+body.portfolio{
+	background-color:#BC8F8F;
+}
+
+.portfolio-nav{
+	width:90%;
+	height:60px;
+	line-height: 60px;
+	padding:0px 90px;
+	position:fixed;
+	z-index:1;
+	background-color:rgba(0,0,0,0.8);
+	margin-left: -20px;
+	margin-top: -100px;
+}
+
+.portfolio-ul{
+	float:right;
+}
+
+.portfolio-li{
+	display: inline-block;
+	list-style: none;
+}
+
+.portfolio-li a{
+	color: white;
+	text-decoration: none;
+	font-size: 25px;
+	text-transform: uppercase;
+	padding: 0px 32px;
+	font-family: 'Unna',serif;
+}
+
+.wireless{
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	width:40%;
+	margin-top: 20px;
+}
+
+.wireless:hover{
+	color:plum;
+	background: plum;
+	box-shadow: 0 0 100px crimson;
+}
+.raspberry{
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	width:40%;
+	margin-top: 20px;
+}
+.raspberry:hover{
+	color:plum;
+	background: plum;
+	box-shadow: 0 0 100px crimson;
+}
+
+.L289N{
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	width:40%;
+	margin-top: 20px;
+}
+
+.L289N:hover{
+	color:plum;
+	background: plum;
+	box-shadow: 0 0 100px crimson;
+}
+
+.schematic{
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	width:40%;
+	margin-top: 20px;
+}
+
+.schematic:hover{
+	color:plum;
+	background: plum;
+	box-shadow: 0 0 100px crimson;
+}
+
+.forklift{
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	width:40%;
+	margin-top: 20px;
+}
+
+.forklift:hover{
+	color:plum;
+	background: plum;
+	box-shadow: 0 0 100px crimson;
+}
