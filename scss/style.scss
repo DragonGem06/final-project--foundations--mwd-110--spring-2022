@@ -5,7 +5,7 @@ body.about {
 	width: 100%;
 	height: 100%;
 	padding: 100px 20px;
-	background-color: pink;
+background-color: #BC8F8F;
 }
 
 .about img{
@@ -33,12 +33,21 @@ body.about {
 }
 
 .aboutparagraph{
-  color: plum;
+  color: black;
   letter-spacing: 1px;
   line-height: 28px;
   font-size:18px;
-  margin-bottom:45px;
+  margin-bottom:30px;
   font-family: 'Unna',serif;
+}
+
+.aboutparagraph1{
+	color: black;
+	letter-spacing: 1px;
+	line-height: 28px;
+	font-size:18px;
+	margin-bottom:45px;
+	font-family: 'Unna',serif;
 }
 
 span{
@@ -46,7 +55,7 @@ span{
 }
 
 body.contact{
-	background-image: url('https://picography.co/wp-content/uploads/2018/12/picography-road-through-dense-pine-forest-768x512.jpg');
+	background-image: url('https://images.pexels.com/photos/258109/pexels-photo-258109.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1');
 	background-repeat: no-repeat;
 	background-size:cover;
 	height:100vh;
@@ -58,7 +67,14 @@ text-align: center;
 color: white;
 font-family: 'Cinzel Decorative',cursive;
 font-size: 80px;
-margin-top: 20px;
+margin:0;
+padding: 0;
+top:50%;
+margin-top: 100px;
+}
+
+.contact-span{
+	color:red;
 }
 
 .border{
@@ -84,12 +100,12 @@ margin-top: 20px;
 	background: #111;
 	padding: 20px 40px;
 	outline: none;
-	color: #ddd;
+	color: 	#ddd;
 	transition: 0.5s;
 }
 
 .contact-form-text:focus{
-	box-shadow: 0 0 10px 4px #556B2F;
+	box-shadow: 0 0 10px 4px #EE82EE;
 }
 
 textarea.contact-form-text{
@@ -100,7 +116,7 @@ textarea.contact-form-text{
 .contact-form-btn{
 	float: right;
 	border: 0;
-	background:#556B2F;
+	background:#DA70D6;
 	color:white;
 	padding: 12px 50px;
 	border-radius: 20px;
@@ -108,8 +124,10 @@ textarea.contact-form-text{
 	transition: 0.5s;
 }
 
+
+
 .contact-form-btn:hover{
-	background:#006400
+	background:	#DDA0DD
 }
 
 .home-intro{
@@ -148,7 +166,7 @@ body.home{
 	line-height: 60px;
 	padding:0px 90px;
 	position:fixed;
-	z-index:-1;
+	z-index:1;
 	background-color:rgba(0,0,0,0.8);
 }
 
@@ -177,10 +195,12 @@ body.home{
 	width:90%;
 	height:60px;
 	line-height: 60px;
-	padding:0px 100px;
+	padding:0px 90px;
 	position:fixed;
 	z-index:1;
 	background-color:rgba(0,0,0,0.8);
+	margin-left: -20px;
+	margin-top: -100px;
 }
 
 .contact-ul{
@@ -193,6 +213,37 @@ body.home{
 }
 
 .contact-li a{
+	color: white;
+	text-decoration: none;
+	font-size: 25px;
+	text-transform: uppercase;
+	padding: 0px 32px;
+	font-family: 'Unna',serif;
+}
+
+.about-nav{
+	width:90%;
+	height: 60px;
+	line-height: 60px;
+	background-color: rgba(0,0,0,0.8);
+	padding: 0px 90px;
+	position: fixed;
+	z-index: 1;
+	margin-top:-100px;
+	margin-left: -20px;
+}
+
+.about-ul{
+	float: right;
+}
+
+.about-li{
+	display:inline-block;
+	list-style: none;
+
+}
+
+.about-li a{
 	color: white;
 	text-decoration: none;
 	font-size: 25px;
