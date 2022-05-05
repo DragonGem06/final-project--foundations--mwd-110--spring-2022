@@ -5,7 +5,7 @@ body.about {
 	width: 100%;
 	height: 100%;
 	padding: 100px 20px;
-	background-color: black;
+	background-color: pink;
 }
 
 .about img{
@@ -128,6 +128,7 @@ textarea.contact-form-text{
 body.home{
 	background-image:url('https://images.unsplash.com/photo-1562408590-e32931084e23?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80');
 	height: 100vh;
+	background-size:auto;
 }
 
 .content{
@@ -142,11 +143,60 @@ body.home{
 }
 
 .home-nav{
-	width:100%;
+	width:90%;
+	height:60px;
+	line-height: 60px;
+	padding:0px 90px;
+	position:fixed;
+	z-index:-1;
+	background-color:rgba(0,0,0,0.8);
+}
+
+.home-ul{
+	float:right;
+}
+
+.home-li{
+	display: inline-block;
+	list-style: none;
+}
+
+.home-li a{
+	color: white;
+	text-decoration: none;
+	font-size: 25px;
+	text-transform: uppercase;
+	padding: 0px 32px;
+	font-family: 'Unna',serif;
+}
+
+.home-spanh1{
+	color:red;
+}
+.contact-nav{
+	width:90%;
 	height:60px;
 	line-height: 60px;
 	padding:0px 100px;
 	position:fixed;
 	z-index:1;
 	background-color:rgba(0,0,0,0.8);
+}
+
+.contact-ul{
+	float:right;
+}
+
+.contact-li{
+	display: inline-block;
+	list-style: none;
+}
+
+.contact-li a{
+	color: white;
+	text-decoration: none;
+	font-size: 25px;
+	text-transform: uppercase;
+	padding: 0px 32px;
+	font-family: 'Unna',serif;
 }
